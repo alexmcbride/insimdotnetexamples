@@ -64,10 +64,10 @@ namespace ExampleInSimApp {
 
         private void HandlePacket(InSim insim, IS_ISM packet) {
             // joined multiplayer host, request players and state be sent
-            insim.Send(new[] {
+            insim.Send(
                 new IS_TINY { ReqI = 1, SubT= TinyType.TINY_NPL }, // request player packets
                 new IS_TINY { ReqI = 1, SubT= TinyType.TINY_SST } // request state packet
-            });
+            );
         }
 
         private void HandlePacket(InSim insim, IS_STA packet) {

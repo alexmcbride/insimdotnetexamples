@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="InSimDotNet, Version=2.2.0.0, Culture=neutral, PublicKeyToken=1943e54a82f60fb6, processorArchitecture=MSIL">
-      <HintPath>..\packages\InSimDotNet.2.2.0.1\lib\net45\InSimDotNet.dll</HintPath>
+    <Reference Include="InSimDotNet, Version=2.3.0.0, Culture=neutral, PublicKeyToken=1943e54a82f60fb6, processorArchitecture=MSIL">
+      <HintPath>..\packages\InSimDotNet.2.3.0\lib\net45\InSimDotNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
